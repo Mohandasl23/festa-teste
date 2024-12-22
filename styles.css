@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.flavia-decoracoes {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 30px;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+/* Estilos globais */
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+header {
+  background-color: #ff7f50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Galeria de Temas */
+.temas-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  line-height: 20px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.tema {
+  width: 30%;
+  text-align: center;
+}
+
+.tema img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.tema p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #666;
+}
+
+/* Depoimentos */
+#depoimentos {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.depoimento {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.depoimento p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Formulário de Contato */
+#contato {
+  padding: 20px;
+  text-align: center;
+}
+/* Carrossel */
+.carrossel {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides img {
+  width: 100%;
+  display: none;
+}
+
+.slides img.active {
+  display: block;
+}
+.link-whatsapp img {
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/* Botões de navegação */
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button.prev:hover,
+button.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
